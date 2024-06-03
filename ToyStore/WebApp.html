@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Toy Store Form</title>
+</head>
+<body>
+    <header style="background-color: #61a4db; display: flex;">
+        <a href="WebApp.html" >
+            <img src="sticker.jpg" alt="Toy Store Logo" style="height: 100px; margin-left: 20px;">
+        </a>
+        <h1 style="color: #072849; margin-left: 40px;">Hello! Welcome to Our Toy Store</h1>
+    </header>
+    <h3>Please fill out the form below to help us understand your preferences and better serve your needs.</h3>
+    <form>
+        <ul>
+            <li>
+                <div class="form-group">
+                    <label>Name:</label>
+                    <input type="text" required>
+                </div>
+            </li>
+            <p></p>
+            <li>
+                <div class="form-group">
+                    <label>Email Address:</label>
+                    <input type="email" required>
+                </div>
+            </li>
+            <p></p>
+            <li>
+                <div class="form-group">
+                    <label>Date of Birth:</label>
+                    <input type="date" required>
+                </div>
+            </li>
+            <p></p>
+            <li>
+                <div class="form-group">
+                    <label>How old is your child?</label>
+                    <select id="child-age" name="child-age" required>
+                        <option value="">Select Age</option>
+                        <option value="0-2">0-2 years</option>
+                        <option value="3-5">3-5 years</option>
+                        <option value="6-8">6-8 years</option>
+                        <option value="9-12">9-12 years</option>
+                        <option value="13+">13+ years</option>
+                    </select>
+                </div>
+            </li>
+            <p></p>
+            <li>
+                <div class="form-group">
+                    <label>Preferred Toy Category:</label>
+                    <br>
+                    <input type="radio" value="Action Figures">
+                    <label>Action Figures</label>
+                    <br>
+                    <input type="radio" value="Dolls">
+                    <label>Dolls</label>
+                    <br>
+                    <input type="radio" value="Board Games">
+                    <label>Board Games</label>
+                    <br>
+                    <input type="radio" value="Building Toys">
+                    <label>Building Toys</label>
+                    <br>
+                    <input type="radio" value="Puzzles">
+                    <label>Puzzles</label>
+                    <br>
+                    <input type="radio"value="Outdoor Toys">
+                    <label>Outdoor Toys</label>
+                    <br>
+                </div>
+            </li>
+            <p></p>
+            <li>
+                <div class="form-group">
+                    <label>Favorite Toy Brands:</label>
+                    <br>
+                    <input type="radio" value="LEGO">
+                    <label>LEGO</label>
+                    <br>
+                    <input type="radio" value="Barbie">
+                    <label>Barbie</label>
+                    <br>
+                    <input type="radio" value="Hot Wheels">
+                    <label>Hot Wheels</label>
+                    <br>
+                    <input type="radio" value="Fisher-Price">
+                    <label>Fisher-Price</label>
+                    <br>
+                    <input type="radio" value="Hasbro">
+                    <label>Hasbro</label>
+                    <br>
+                </div>
+            </li>
+            <p></p>
+            <li>
+                <div class="form-group">
+                    <label>How satisfied are you with the provided services?</label>
+                    <select id="satisfied" name="satisfied" required>
+                        <option value="">Select</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <table border>
+                        <thead>
+                            <tr>
+                                <th>1</th>
+                                <th>2</th>
+                                <th>3</th>
+                                <th>4</th>
+                                <th>5</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Very Unsatisfied</td>
+                                <td>Unsatisfied</td>
+                                <td>Neutral</td>
+                                <td>Satisfied</td>
+                                <td>Very Satisfied</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </li>
+            <p></p>
+            <li>
+                <div class="form-group">
+                    <label>We're always looking to improve! What would you like to suggest or comment on?</label>
+                    <br>
+                    <textarea rows="2"></textarea>
+                </div>
+            </li>
+            <p></p>
+            <li>
+                <div class="form-group">
+                    <p>Do you agree to receive promotions at the provided email?</p>
+                    <input type="radio" value="yes">
+                    <label>Yes</label>
+                    <input type="radio" value="no">
+                    <label>No</label>
+                </div>
+            </li>
+        </ul>
+            <p></p>
+            
+                <div class="form-group">
+                    <input type="checkbox" >
+                    <label>By submitting this form, you agree to the processing of your personal data.</label>
+                </div>
+        <button type="submit">Submit</button>
+    </form>
+    <footer style="background-color: #61a4db; text-align: center;">
+        <p>&copy; All rights reserved.</p>
+    </footer>
+</body>
+</html>
